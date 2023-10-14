@@ -3,7 +3,7 @@
         <input
             type="text"
             v-model="keyword"
-            class="rounded border-2 border-gray-200 w-full"
+            class="rounded border-2 border-gray-200 w-full w-[400px]"
             placeholder="Search for Meals"
             @change="searchMeals"
         />
